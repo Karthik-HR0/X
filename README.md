@@ -83,19 +83,19 @@
 
 <kbd> # Scan a domain and display results </kbd>
 ```bash
-python3 ufx.py -d example.com
+python3 ufxss.py -d example.com
 ``` 
 <kbd> # Scan a domain and save results to a file </kbd>
 ```bash
-python3 ufx.py -d example.com -o results.txt
+python3 ufxss.py -d example.com -o results.txt
 ``` 
 <kbd> # Scan with a specific pattern (e.g., 'q=') </kbd>
 ```bash
-python3 ufx.py -d example.com -sp q=
+python3 ufxss.py -d example.com -sp q=
 ``` 
 <kbd> # Scan with filtering enabled </kbd>
 ```bash
-python3 ufx.py -d example.com --filter
+python3 ufxss.py -d example.com --filter
 ``` 
 ---
 <kbd>
