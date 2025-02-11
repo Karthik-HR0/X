@@ -27,7 +27,7 @@
 <br>
 
 ---
-<kbd> 
+
 <h3>ufxss</h3>
 <table>
   <thead>
@@ -73,7 +73,7 @@
 
 </div>
 
-</kbd>
+
 
 
 
