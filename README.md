@@ -98,7 +98,7 @@ python3 ufxss.py -d example.com -sp q=
 python3 ufxss.py -d example.com --filter
 ``` 
 ---
-<kbd>
+
 <h3>XSS SCANNER</h3>
 <table>
   <thead>
@@ -139,7 +139,7 @@ python3 ufxss.py -d example.com --filter
 | **Extensibility**      | • _`Python-based Modular Design`_ <br>• _`Integration with Other Tools`_ | • _`Expandable for New Vulnerabilities`_ <br>• _`Centralized Payload Management`_ | • _`Continuous Updates for New Techniques`_ <br>• _`Customizable Scanning Options`_ |
 
 </div>
-</kbd>
+
 
 ---
 
