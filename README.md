@@ -96,7 +96,30 @@ python3 ufxss.py -d example.com -sp q=
 <kbd> # Scan with filtering enabled </kbd>
 ```bash
 python3 ufxss.py -d example.com --filter
-``` 
+```
+
+<kbd> # help </kbd>
+ 
+```bash
+python3 ufxss.py -h
+
+usage: ufxss.py [-h] -d DOMAIN [-o OUTPUT] [-sp SPECIFIC_PATTERN] [--filter]
+
+UFX - URL FOR XSS
+
+options:
+  -h, --help            show this help message and exit
+  -d DOMAIN, --domain DOMAIN
+                        Target domain to scan (e.g., example.com)
+  -o OUTPUT, --output OUTPUT
+                        Save results to the specified output file
+  -sp SPECIFIC_PATTERN, --specific-pattern SPECIFIC_PATTERN
+                        Scan using a specific pattern (e.g., q=)
+  --filter              Filter URLs using s0md3v's uro tool
+
+Example: python3 ufx.py -d example.com -o results.txt
+
+```
 ---
 
 <h3>XSS SCANNER</h3>
@@ -162,3 +185,18 @@ python3 xss.py -file urls.txt -payload payloads.txt
 cat urls.txt | python3 xss.py -payload payloads.txt
 ```
 
+<kbd> # help </kbd>
+
+```bash
+
+python3 xss.py -h                                                                                                
+usage: xss.py [-h] [-url URL] [-file FILE] -payload PAYLOAD
+
+XSS Scanner Tool
+
+options:
+  -h, --help        show this help message and exit
+  -url URL          Specify a single URL to scan
+  -file FILE        Specify a file containing URLs
+  -payload PAYLOAD  Specify a payload file
+```
