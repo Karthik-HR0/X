@@ -73,6 +73,38 @@
 
 </div>
 
+
+
+
+
+<h6 align="center">
+  USAGE 
+</h6>
+
+
+```bash
+python3 ufxss.py -d testphp.vulnweb.com
+```
+
+<kbd> # For finding hidden target urls for xss </kbd>
+
+
+```bash
+python3 ufx.py -d domain.com -sp "q="
+
+```
+<kbd> # -sp for specific pattern urls for xss </kbd>
+
+```bash
+python3 ufx.py -d domain.com --filter 
+```
+
+
+
+
+
+
+
 ---
 
 
