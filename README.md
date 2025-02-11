@@ -81,16 +81,23 @@
   USAGE 
 </h6>
 
-
-
+<kbd> # Scan a domain and display results </kbd>
+```bash
+python3 ufx.py -d example.com
+``` 
+<kbd> # Scan a domain and save results to a file </kbd>
+```bash
+python3 ufx.py -d example.com -o results.txt
+``` 
+<kbd> # Scan with a specific pattern (e.g., 'q=') </kbd>
+```bash
+python3 ufx.py -d example.com -sp q=
+``` 
+<kbd> # Scan with filtering enabled </kbd>
+```bash
+python3 ufx.py -d example.com --filter
+``` 
 ---
-
-
-
-
-
----
-
 
 <h3>XSS SCANNER</h3>
 <table>
@@ -133,3 +140,23 @@
 
 </div>
 ---
+
+
+<div align="center">
+<kbd> USAGE:↓ </kbd>
+</div>
+
+<kbd> # Scan a single URL with a payload file </kbd>
+```bash
+python3 xss.py -url https://example.com?search= -payload payloads.txt
+```
+<kbd> # Scan multiple URLs from a file </kbd>
+```bash
+python3 xss.py -file urls.txt -payload payloads.txt
+```
+
+<kbd> # Use piped input for URLs and scan with a payload file </kbd>
+```bash
+cat urls.txt | python3 xss.py -payload payloads.txt
+```
+
